@@ -1,0 +1,268 @@
+<mxfile host="app.diagrams.net" modified="2024-01-13T06:26:34.118Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="2GqG-M_Fr7mXkWOOfY9P" version="22.1.17" type="device">
+  <diagram name="Page-1" id="fiJsFNeUUU0kaO1C1wmu">
+    <mxGraphModel dx="4300" dy="2830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="nQlKWQrckPqZZKxaXVfq-1" target="U7gdwq9AOyOpWBOPxD1C-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nQlKWQrckPqZZKxaXVfq-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 20px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;User&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- username : String&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- password : int&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ getUsername ()&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ setUsername()&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ getPassword()&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ setPassword()&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-1100" y="160" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=open;startFill=0;endArrow=none;endFill=0;endSize=15;startSize=20;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="nQlKWQrckPqZZKxaXVfq-28" target="D3YuI9JhisPfe-MM1dud-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;dashPattern=12 12;endArrow=open;endFill=0;endSize=20;" edge="1" parent="1" source="nQlKWQrckPqZZKxaXVfq-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nQlKWQrckPqZZKxaXVfq-28" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 20px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;ShoppingCart&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- cartItems: List&amp;lt;Product&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- categories: List&amp;lt;String&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- categoryQuantities : List&amp;lt;Integer&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ ShoppingCart()&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ addProduct(selectedProduct: Product): void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ updateCategoryCount(category: String, quantity: int): void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ calculateTotalCostWithDiscount(): double&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ findCategoryIndex(category: String): int&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ findCategoryQuantity(category: String): int&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ calculateTotalCost(): double&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ getCartItems(): List&amp;lt;CartItem&amp;gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ getCartItem(selectedProduct: Product): CartItem&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-450" y="1110" width="580" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="D3YuI9JhisPfe-MM1dud-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;endSize=12;startSize=20;" parent="1" source="D3YuI9JhisPfe-MM1dud-3" target="nQlKWQrckPqZZKxaXVfq-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.142;exitY=1.004;exitDx=0;exitDy=0;dashed=1;dashPattern=12 12;strokeWidth=1;endArrow=none;endFill=0;startArrow=open;startFill=0;endSize=20;startSize=20;exitPerimeter=0;" edge="1" parent="1" source="D3YuI9JhisPfe-MM1dud-3" target="D3YuI9JhisPfe-MM1dud-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="D3YuI9JhisPfe-MM1dud-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="518" y="-210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D3YuI9JhisPfe-MM1dud-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 20px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;ShoppingGUI&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- guiFrame: JFrame&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- productDetailsTable: JTable&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- detailsPanel: JTextArea&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- shoppingCart: ShoppingCart&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- productDetailsTableModel: DefaultTableModel&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- cartDetailsTableModel: ShoppingCartTableModel&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ ShoppingGUI(productList: List&amp;lt;Product&amp;gt;)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ addToCart(productList: List&amp;lt;Product&amp;gt;)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ filterProductsOnType(productList: List&amp;lt;Product&amp;gt;, productType: String)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ displayShoppingCart()&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ updateAdditionalInfo(additionalInfoArea: JTextArea)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ updateSelectedProductDetails(productList: List&amp;lt;Product&amp;gt;)&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-458.25" y="85" width="705.5" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=open;endFill=0;dashed=1;dashPattern=12 12;endSize=20;entryX=0.786;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D3YuI9JhisPfe-MM1dud-4" target="D3YuI9JhisPfe-MM1dud-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D3YuI9JhisPfe-MM1dud-4" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 20px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;DefaultTableModel&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;- productList: List&amp;lt;Product&amp;gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;- selectedCategory: String&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;+ DefaultTableModel(productList: List&amp;lt;Product&amp;gt;)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;+ updateData(updatedProducts: List&amp;lt;Product&amp;gt;)&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="20" y="715" width="469" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="D3YuI9JhisPfe-MM1dud-5" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 20px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;ShoppingCartTableModel&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- cartItems: List&amp;lt;ShoppingCart.CartItem&amp;gt;&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ ShoppingCartTableModel(cartItems: List&amp;lt;ShoppingCart.CartItem&amp;gt;)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ updateDataForCart(cartItems: List&amp;lt;ShoppingCart.CartItem&amp;gt;)&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-1040" y="715" width="640" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="D3YuI9JhisPfe-MM1dud-6" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 20px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;CartItem&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- product: Product&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- quantity: int&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ CartItem(product: Product)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ getProduct(): Product&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ getQuantity(): int&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ updateQuantity()&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ getTotalPrice(): double&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1170" width="280" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="U7gdwq9AOyOpWBOPxD1C-21" target="U7gdwq9AOyOpWBOPxD1C-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1395" y="560" />
+              <mxPoint x="995" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="U7gdwq9AOyOpWBOPxD1C-24" target="U7gdwq9AOyOpWBOPxD1C-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1395" y="490" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1395" y="560" />
+              <mxPoint x="1785" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="U7gdwq9AOyOpWBOPxD1C-21" target="D3YuI9JhisPfe-MM1dud-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-21" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 20px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/font&gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 20px;&quot;&gt;&lt;i&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Product&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- item_Id : String&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- item_Name : String&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- item_Quantity : int&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- item_price : double&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ get_Product_Id(): String&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ set_Product_Id(item_id: String): void&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ get_Product_Name(): String&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ set_Product_Name(item_Name: String): void&amp;nbsp;&lt;br&gt;+ get_Available_Items(): int&amp;nbsp;&lt;br&gt;+ set_Available_Items(item_Quantity: int): void&lt;br&gt;+ get_Price(): double&amp;nbsp;&lt;br&gt;+ set_Price(item_Price: double): void &lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="80" width="430" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-22" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 20px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Electronics&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;-brand: String&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;-warranty_Period: int&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+get_Brand(): String&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+set_Brand(brand: String): void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+get_Warranty_Period(): int&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+set_Warranty_Period(Warranty_period: int): void&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="740" y="640" width="510" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-23" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 20px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Clothing&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;-size: String&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;-colour: String&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+&amp;nbsp;get_Size(): String&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ set_Size(size: String): void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ get_Colour(): String&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ set_Colour(colour: String): void&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="640" width="370" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-24" value="" style="triangle;whiteSpace=wrap;html=1;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="480" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="-447.5" as="sourcePoint" />
+            <mxPoint x="520" y="-447.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" target="D3YuI9JhisPfe-MM1dud-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-105.5" y="-535" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-105" y="-200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-26" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 20px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;WestminsterShoppingManager&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- selectedProducts :List&amp;lt;Product&amp;gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- maximumLimit : int&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ printMenu() : void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+&amp;nbsp;addProductToSystem(selectedProduct: Product): void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ removeProductFromSystem(productID: Product): void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ saveToAFile(): void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ loadFile() : void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;- isProductInList(product: Product)&amp;nbsp; : void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ printData() : void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ openGUI() : void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-360.5" y="-860" width="510" height="325" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-35" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;ShoppingManager&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ addProducts(selectedProduct : Product) : void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ removeProducts(productID : String) : void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ saveToAFile() : void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ loadFile() : void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ printFile() : void&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="-830" width="460" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-710" y="-714.67" as="sourcePoint" />
+            <mxPoint x="-360.5" y="-715.4999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-670" y="-714.67" />
+              <mxPoint x="-525" y="-715.67" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-37" value="" style="triangle;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="-730" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="U7gdwq9AOyOpWBOPxD1C-77" target="U7gdwq9AOyOpWBOPxD1C-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="675" y="-616" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="U7gdwq9AOyOpWBOPxD1C-42" target="U7gdwq9AOyOpWBOPxD1C-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-42" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 20px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;ViewClass&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- scanner: Scanner&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;- shoppingManager: WestminsterShoppingManager&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 20px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ main(args: String[]): void&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ addProductToSystem(scanner: Scanner, shoppingManager1: WestminsterShoppingManager): void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ DeleteProduct(scanner: Scanner, Object1: WestminsterShoppingManager): void&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+ checkStringAlphabeticalValue(input: String): boolean&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-430" width="1030" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="U7gdwq9AOyOpWBOPxD1C-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-105" y="-535" as="sourcePoint" />
+            <mxPoint x="-105.5" y="-485" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-105" y="-465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="U7gdwq9AOyOpWBOPxD1C-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="-779" as="sourcePoint" />
+            <mxPoint x="1395" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1395" y="-779" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-56" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1240" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-57" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;0..*&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1240" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-58" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="475" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-59" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="480" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-60" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="475" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-62" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="660" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-63" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="675" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-64" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="1070" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-65" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;0..*&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="240" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-66" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="247.25" y="240" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-67" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="247.25" y="140" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-68" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="489" y="-210" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-69" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;1&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-210" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-70" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;0..*&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="140" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-71" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-660" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-72" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="-475" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-73" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;0..*&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="30" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-74" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-830" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-77" value="" style="rhombus;whiteSpace=wrap;html=1;direction=west;fillColor=#0F0F0F;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-480" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-84" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-530" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-85" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="40" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-86" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-488.25" y="240" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-87" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1..*&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="240" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-88" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-360" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-89" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;0..*&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1050" y="120" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-90" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Manages&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="-480" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-91" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;has a&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-660" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-92" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;handles&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="120" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-94" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Manages&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-95" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;use&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="240" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-96" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;provide inputs to&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-360" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-97" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;implements&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="-770" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-98" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Manages&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="-270" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-99" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Working on&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-102" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;includes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-103" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;handle&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="214.5" y="550" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-104" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;handle&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="775" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-105" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;handle&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-745" y="550" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7gdwq9AOyOpWBOPxD1C-106" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;&lt;b&gt;B.J.A.Karunarathna&amp;nbsp; 20220547&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1630" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
